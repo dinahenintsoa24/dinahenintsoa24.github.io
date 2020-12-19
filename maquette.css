@@ -1,0 +1,84 @@
+#entete{
+    background-color:RGBA(13, 70, 83, 0.78);
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.image{
+    float: left;
+    margin-left:10%;
+    margin-top: 5px;
+    
+}
+.liste{
+    float: right;
+    margin-top: 20px;
+}
+.liste li{
+    list-style:none;
+    display: inline;
+    margin-right: 100px;
+    margin-left: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.liste a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.liste:hover .bar{
+    color:aquamarine;
+    
+}
+
+.style a{
+    color:black;
+}
+
+.style:hover a{
+    color:red;
+}
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown .style{
+    display: none;
+    position: absolute;
+}
+.dropdown .style li{
+    display: block;
+}
+.dropdown:hover .style{
+    display: block;
+}
+
+body{
+    background-image: url("fond.jpg");
+    margin: 0;
+    background-size: 100%;
+    
+}
+
+.centre{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.boutton{
+    background-color:grey;
+    margin-top: 5px;
+    padding-block: 8px;
+   
+}
+p{
+    color: goldenrod;
+}
+h2{
+    color:RGBA(13, 70, 83, 0.78);
+}
